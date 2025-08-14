@@ -11,6 +11,7 @@ def load_all_docs(paths):
     text=text_splitter.split_documents(all_docs)
     return text
 
+
 # paths=['Data/2024-12_CDR-Mission-MRV-Report.pdf','Data/Detailed Procedure for Compliance Mechanism.pdf',
 #        'Data/ICAP offsets paper_vfin.pdf']
 # result=load_all_docs(paths)
